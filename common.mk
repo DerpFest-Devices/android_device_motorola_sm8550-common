@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device-V1-ndk.vendor \
     android.hardware.camera.metadata-V1-ndk.vendor \
     android.hardware.camera.provider-V1-ndk.vendor \
-    android.hardware.camera.provider@2.4.vendor 
+    android.hardware.camera.provider@2.4.vendor \ 
     libcamera_metadata.vendor \
     libexif.vendor \
     libutilscallstack.vendor \
