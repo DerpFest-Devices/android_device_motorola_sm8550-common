@@ -125,7 +125,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device-V1-ndk.vendor \
     android.hardware.camera.metadata-V1-ndk.vendor \
     android.hardware.camera.provider-V1-ndk.vendor \
-    android.hardware.camera.provider@2.4.vendor \
+    android.hardware.camera.provider@2.4.vendor 
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libutilscallstack.vendor \
+    libyuv.vendor \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
@@ -408,9 +412,12 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor \
     libvndfwk_detect_jni.qti_vendor
@@ -558,6 +565,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-cpp \
     libnl \
+    libpng.vendor \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
