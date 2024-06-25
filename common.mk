@@ -420,7 +420,9 @@ PRODUCT_PACKAGES += \
     libsqlite.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor \
-    libvndfwk_detect_jni.qti_vendor
+    libvndfwk_detect_jni.qti_vendor \
+    libsysutils.vendor \
+    libusbhost.vendor
 
 # QTI service tracker
 PRODUCT_PACKAGES += \
